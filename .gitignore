@@ -1,0 +1,12 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+
+# File di sistema ed editor
+.DS_Store
+.vscode/
+
+# Output temporanei
+.ipynb_checkpoints/
+runs/

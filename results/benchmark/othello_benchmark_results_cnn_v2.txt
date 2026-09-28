@@ -1,0 +1,914 @@
+OTHELLO AI BENCHMARK REPORT
+Generated: 2026-09-28 02:31:00
+==================================================================
+
+DETAILED PHASE LOGS
+==================================================================
+
+##################################################################
+#  OTHELLO COMPLETE TEST SUITE
+#  Started: 2026-09-27 22:13:50
+#  Phases: 4  |  Budget per phase: 20 min  |  n: 100–400
+##################################################################
+
+==================================================================
+  PHASE: 8.  Heuristic CNN vs Heuristic
+  P1=2c  P2=2
+==================================================================
+  CNN loaded successfully.
+  [Calibration] 1 sample game
+  Average time per game : 0.156 s
+  Games planned         : 400  (min=100, max=400, budget=20 min)
+  Estimated total time  : 1.0 min  (62 s)
+  Expected 95% CI width : ±4.9%
+
+  --- BLOCK A: P1 (2c) as Black (200 games) ---
+  [A] Game  10/200  P1 wins:   8  Elapsed: 1.4s
+  [A] Game  20/200  P1 wins:  18  Elapsed: 2.8s
+  [A] Game  30/200  P1 wins:  27  Elapsed: 4.2s
+  [A] Game  40/200  P1 wins:  33  Elapsed: 5.6s
+  [A] Game  50/200  P1 wins:  40  Elapsed: 7.0s
+  [A] Game  60/200  P1 wins:  49  Elapsed: 8.4s
+  [A] Game  70/200  P1 wins:  57  Elapsed: 9.8s
+  [A] Game  80/200  P1 wins:  66  Elapsed: 11.3s
+  [A] Game  90/200  P1 wins:  75  Elapsed: 12.7s
+  [A] Game 100/200  P1 wins:  85  Elapsed: 14.2s
+  [A] Game 110/200  P1 wins:  92  Elapsed: 15.6s
+  [A] Game 120/200  P1 wins: 100  Elapsed: 17.1s
+  [A] Game 130/200  P1 wins: 108  Elapsed: 18.6s
+  [A] Game 140/200  P1 wins: 117  Elapsed: 20.0s
+  [A] Game 150/200  P1 wins: 124  Elapsed: 21.4s
+  [A] Game 160/200  P1 wins: 132  Elapsed: 22.9s
+  [A] Game 170/200  P1 wins: 138  Elapsed: 24.2s
+  [A] Game 180/200  P1 wins: 148  Elapsed: 25.7s
+  [A] Game 190/200  P1 wins: 157  Elapsed: 27.1s
+  [A] Game 200/200  P1 wins: 165  Elapsed: 28.6s
+
+  --- BLOCK B: P1 (2c) as White (200 games) ---
+  [B] Game  10/200  P1 wins (total): 174  Elapsed: 30.0s
+  [B] Game  20/200  P1 wins (total): 183  Elapsed: 31.6s
+  [B] Game  30/200  P1 wins (total): 190  Elapsed: 33.0s
+  [B] Game  40/200  P1 wins (total): 197  Elapsed: 34.2s
+  [B] Game  50/200  P1 wins (total): 205  Elapsed: 35.7s
+  [B] Game  60/200  P1 wins (total): 214  Elapsed: 37.1s
+  [B] Game  70/200  P1 wins (total): 224  Elapsed: 38.6s
+  [B] Game  80/200  P1 wins (total): 231  Elapsed: 40.0s
+  [B] Game  90/200  P1 wins (total): 240  Elapsed: 41.7s
+  [B] Game 100/200  P1 wins (total): 249  Elapsed: 43.0s
+  [B] Game 110/200  P1 wins (total): 257  Elapsed: 44.3s
+  [B] Game 120/200  P1 wins (total): 264  Elapsed: 45.6s
+  [B] Game 130/200  P1 wins (total): 272  Elapsed: 47.2s
+  [B] Game 140/200  P1 wins (total): 282  Elapsed: 48.7s
+  [B] Game 150/200  P1 wins (total): 289  Elapsed: 50.3s
+  [B] Game 160/200  P1 wins (total): 298  Elapsed: 51.9s
+  [B] Game 170/200  P1 wins (total): 304  Elapsed: 53.2s
+  [B] Game 180/200  P1 wins (total): 311  Elapsed: 54.5s
+  [B] Game 190/200  P1 wins (total): 319  Elapsed: 56.0s
+  [B] Game 200/200  P1 wins (total): 328  Elapsed: 57.6s
+
+  ────────────────────────────────────────────────────────────
+  RESULTS  (400 games total, 57.6 s elapsed)
+  ────────────────────────────────────────────────────────────
+  P1 (2c) wins :  328  (82.0%)
+  P2 (2) wins :   67  (16.8%)
+  Draws          :    5  (1.2%)
+  95% Wilson CI  : [77.9%, 85.5%]
+  Verdict        : P1 SIGNIFICANTLY BETTER (p<0.05)
+  ────────────────────────────────────────────────────────────
+
+  INDIVIDUAL GAME LOG (game_id, p1_colour, winner_code, p1_won, duration_s)
+  1, Black, 1, 1, 0.1326
+  2, Black, 1, 1, 0.1500
+  3, Black, 1, 1, 0.1442
+  4, Black, 2, 0, 0.0528
+  5, Black, 1, 1, 0.1440
+  6, Black, 1, 1, 0.1456
+  7, Black, 1, 1, 0.1398
+  8, Black, 2, 0, 0.1476
+  9, Black, 1, 1, 0.1600
+  10, Black, 1, 1, 0.1545
+  11, Black, 1, 1, 0.1421
+  12, Black, 1, 1, 0.1605
+  13, Black, 1, 1, 0.1452
+  14, Black, 1, 1, 0.1378
+  15, Black, 1, 1, 0.1268
+  16, Black, 1, 1, 0.1396
+  17, Black, 1, 1, 0.1555
+  18, Black, 1, 1, 0.1677
+  19, Black, 1, 1, 0.1361
+  20, Black, 1, 1, 0.1390
+  21, Black, 1, 1, 0.1438
+  22, Black, 1, 1, 0.1330
+  23, Black, 1, 1, 0.1449
+  24, Black, 1, 1, 0.1568
+  25, Black, 1, 1, 0.1341
+  26, Black, 2, 0, 0.0528
+  27, Black, 1, 1, 0.1363
+  28, Black, 1, 1, 0.1407
+  29, Black, 1, 1, 0.1418
+  30, Black, 1, 1, 0.1488
+  31, Black, 2, 0, 0.0713
+  32, Black, 1, 1, 0.1701
+  33, Black, 1, 1, 0.1514
+  34, Black, 2, 0, 0.1763
+  35, Black, 2, 0, 0.1558
+  36, Black, 1, 1, 0.1616
+  37, Black, 1, 1, 0.1514
+  38, Black, 1, 1, 0.1399
+  39, Black, 1, 1, 0.1608
+  40, Black, 4, 0, 0.1519
+  41, Black, 1, 1, 0.1353
+  42, Black, 1, 1, 0.1518
+  43, Black, 1, 1, 0.1368
+  44, Black, 1, 1, 0.1597
+  45, Black, 1, 1, 0.1388
+  46, Black, 2, 0, 0.0455
+  47, Black, 1, 1, 0.1318
+  48, Black, 1, 1, 0.1450
+  49, Black, 2, 0, 0.1238
+  50, Black, 2, 0, 0.1449
+  51, Black, 1, 1, 0.1344
+  52, Black, 1, 1, 0.1429
+  53, Black, 1, 1, 0.1621
+  54, Black, 1, 1, 0.1433
+  55, Black, 1, 1, 0.1355
+  56, Black, 1, 1, 0.1487
+  57, Black, 1, 1, 0.1329
+  58, Black, 2, 0, 0.1329
+  59, Black, 1, 1, 0.1584
+  60, Black, 1, 1, 0.1487
+  61, Black, 1, 1, 0.1253
+  62, Black, 1, 1, 0.1597
+  63, Black, 1, 1, 0.1660
+  64, Black, 1, 1, 0.1558
+  65, Black, 1, 1, 0.1643
+  66, Black, 1, 1, 0.1665
+  67, Black, 1, 1, 0.1628
+  68, Black, 4, 0, 0.1313
+  69, Black, 1, 1, 0.1593
+  70, Black, 2, 0, 0.0420
+  71, Black, 1, 1, 0.1523
+  72, Black, 1, 1, 0.1331
+  73, Black, 1, 1, 0.1302
+  74, Black, 2, 0, 0.1303
+  75, Black, 1, 1, 0.1439
+  76, Black, 1, 1, 0.1538
+  77, Black, 1, 1, 0.1309
+  78, Black, 1, 1, 0.1582
+  79, Black, 1, 1, 0.1429
+  80, Black, 1, 1, 0.1674
+  81, Black, 1, 1, 0.1405
+  82, Black, 1, 1, 0.1276
+  83, Black, 1, 1, 0.1440
+  84, Black, 1, 1, 0.1645
+  85, Black, 2, 0, 0.0689
+  86, Black, 1, 1, 0.1598
+  87, Black, 1, 1, 0.1502
+  88, Black, 1, 1, 0.1597
+  89, Black, 1, 1, 0.1565
+  90, Black, 1, 1, 0.1537
+  91, Black, 1, 1, 0.1440
+  92, Black, 1, 1, 0.1732
+  93, Black, 1, 1, 0.1507
+  94, Black, 1, 1, 0.1607
+  95, Black, 1, 1, 0.1688
+  96, Black, 1, 1, 0.1608
+  97, Black, 1, 1, 0.1172
+  98, Black, 1, 1, 0.1508
+  99, Black, 1, 1, 0.1546
+  100, Black, 1, 1, 0.1568
+  101, Black, 2, 0, 0.1408
+  102, Black, 1, 1, 0.1484
+  103, Black, 2, 0, 0.1108
+  104, Black, 1, 1, 0.1365
+  105, Black, 1, 1, 0.1401
+  106, Black, 1, 1, 0.1534
+  107, Black, 1, 1, 0.1321
+  108, Black, 2, 0, 0.1364
+  109, Black, 1, 1, 0.1484
+  110, Black, 1, 1, 0.1488
+  111, Black, 1, 1, 0.1646
+  112, Black, 1, 1, 0.1621
+  113, Black, 1, 1, 0.1706
+  114, Black, 1, 1, 0.1481
+  115, Black, 2, 0, 0.1448
+  116, Black, 2, 0, 0.1430
+  117, Black, 1, 1, 0.1492
+  118, Black, 1, 1, 0.1228
+  119, Black, 1, 1, 0.1371
+  120, Black, 1, 1, 0.1403
+  121, Black, 4, 0, 0.1203
+  122, Black, 1, 1, 0.1478
+  123, Black, 1, 1, 0.1587
+  124, Black, 1, 1, 0.1730
+  125, Black, 2, 0, 0.1264
+  126, Black, 1, 1, 0.1658
+  127, Black, 1, 1, 0.1350
+  128, Black, 1, 1, 0.1743
+  129, Black, 1, 1, 0.1167
+  130, Black, 1, 1, 0.1515
+  131, Black, 1, 1, 0.1562
+  132, Black, 1, 1, 0.1237
+  133, Black, 1, 1, 0.1488
+  134, Black, 1, 1, 0.1549
+  135, Black, 1, 1, 0.1446
+  136, Black, 2, 0, 0.0656
+  137, Black, 1, 1, 0.1433
+  138, Black, 1, 1, 0.1463
+  139, Black, 1, 1, 0.1432
+  140, Black, 1, 1, 0.1566
+  141, Black, 2, 0, 0.1186
+  142, Black, 1, 1, 0.1401
+  143, Black, 4, 0, 0.1367
+  144, Black, 1, 1, 0.1671
+  145, Black, 1, 1, 0.1534
+  146, Black, 2, 0, 0.1292
+  147, Black, 1, 1, 0.1439
+  148, Black, 1, 1, 0.1243
+  149, Black, 1, 1, 0.1592
+  150, Black, 1, 1, 0.1581
+  151, Black, 1, 1, 0.1640
+  152, Black, 1, 1, 0.1623
+  153, Black, 1, 1, 0.1521
+  154, Black, 1, 1, 0.1515
+  155, Black, 1, 1, 0.1619
+  156, Black, 1, 1, 0.1365
+  157, Black, 2, 0, 0.1075
+  158, Black, 1, 1, 0.1399
+  159, Black, 2, 0, 0.1636
+  160, Black, 1, 1, 0.1752
+  161, Black, 2, 0, 0.1165
+  162, Black, 1, 1, 0.1569
+  163, Black, 1, 1, 0.1435
+  164, Black, 2, 0, 0.1093
+  165, Black, 1, 1, 0.1342
+  166, Black, 1, 1, 0.1488
+  167, Black, 1, 1, 0.1574
+  168, Black, 1, 1, 0.1511
+  169, Black, 2, 0, 0.0888
+  170, Black, 2, 0, 0.0647
+  171, Black, 1, 1, 0.1423
+  172, Black, 1, 1, 0.1555
+  173, Black, 1, 1, 0.1496
+  174, Black, 1, 1, 0.1352
+  175, Black, 1, 1, 0.1473
+  176, Black, 1, 1, 0.1366
+  177, Black, 1, 1, 0.1506
+  178, Black, 1, 1, 0.1391
+  179, Black, 1, 1, 0.1661
+  180, Black, 1, 1, 0.1813
+  181, Black, 1, 1, 0.1490
+  182, Black, 1, 1, 0.1581
+  183, Black, 1, 1, 0.1628
+  184, Black, 1, 1, 0.1464
+  185, Black, 1, 1, 0.1247
+  186, Black, 1, 1, 0.1408
+  187, Black, 1, 1, 0.1366
+  188, Black, 1, 1, 0.1484
+  189, Black, 1, 1, 0.1406
+  190, Black, 2, 0, 0.1400
+  191, Black, 1, 1, 0.1470
+  192, Black, 1, 1, 0.1359
+  193, Black, 1, 1, 0.1681
+  194, Black, 1, 1, 0.1637
+  195, Black, 2, 0, 0.1102
+  196, Black, 1, 1, 0.1431
+  197, Black, 2, 0, 0.1529
+  198, Black, 1, 1, 0.1603
+  199, Black, 1, 1, 0.1333
+  200, Black, 1, 1, 0.1610
+  201, White, 2, 1, 0.1732
+  202, White, 1, 0, 0.0192
+  203, White, 2, 1, 0.1600
+  204, White, 2, 1, 0.1655
+  205, White, 2, 1, 0.1365
+  206, White, 2, 1, 0.1826
+  207, White, 2, 1, 0.1505
+  208, White, 2, 1, 0.1455
+  209, White, 2, 1, 0.1358
+  210, White, 2, 1, 0.1660
+  211, White, 2, 1, 0.1808
+  212, White, 2, 1, 0.1653
+  213, White, 2, 1, 0.1574
+  214, White, 2, 1, 0.1784
+  215, White, 2, 1, 0.1584
+  216, White, 2, 1, 0.1605
+  217, White, 2, 1, 0.1674
+  218, White, 2, 1, 0.1285
+  219, White, 2, 1, 0.1512
+  220, White, 1, 0, 0.0812
+  221, White, 1, 0, 0.1479
+  222, White, 2, 1, 0.1825
+  223, White, 2, 1, 0.1347
+  224, White, 2, 1, 0.1512
+  225, White, 2, 1, 0.1586
+  226, White, 2, 1, 0.1961
+  227, White, 1, 0, 0.0496
+  228, White, 2, 1, 0.1562
+  229, White, 1, 0, 0.0493
+  230, White, 2, 1, 0.1550
+  231, White, 2, 1, 0.1784
+  232, White, 2, 1, 0.1406
+  233, White, 2, 1, 0.1588
+  234, White, 2, 1, 0.1508
+  235, White, 1, 0, 0.0647
+  236, White, 2, 1, 0.1825
+  237, White, 2, 1, 0.1593
+  238, White, 1, 0, 0.0595
+  239, White, 2, 1, 0.1326
+  240, White, 1, 0, 0.0193
+  241, White, 2, 1, 0.1257
+  242, White, 2, 1, 0.1722
+  243, White, 2, 1, 0.1520
+  244, White, 2, 1, 0.1409
+  245, White, 2, 1, 0.1381
+  246, White, 2, 1, 0.1539
+  247, White, 2, 1, 0.1445
+  248, White, 1, 0, 0.1319
+  249, White, 2, 1, 0.1566
+  250, White, 1, 0, 0.1528
+  251, White, 1, 0, 0.0477
+  252, White, 2, 1, 0.1316
+  253, White, 2, 1, 0.1318
+  254, White, 2, 1, 0.1806
+  255, White, 2, 1, 0.1470
+  256, White, 2, 1, 0.1588
+  257, White, 2, 1, 0.1558
+  258, White, 2, 1, 0.1468
+  259, White, 2, 1, 0.1355
+  260, White, 2, 1, 0.1487
+  261, White, 2, 1, 0.1406
+  262, White, 2, 1, 0.1479
+  263, White, 2, 1, 0.1329
+  264, White, 2, 1, 0.1600
+  265, White, 2, 1, 0.1639
+  266, White, 2, 1, 0.1403
+  267, White, 2, 1, 0.1510
+  268, White, 2, 1, 0.1770
+  269, White, 2, 1, 0.1656
+  270, White, 2, 1, 0.1635
+  271, White, 2, 1, 0.1426
+  272, White, 2, 1, 0.1816
+  273, White, 2, 1, 0.1605
+  274, White, 2, 1, 0.1772
+  275, White, 1, 0, 0.1366
+  276, White, 1, 0, 0.0495
+  277, White, 1, 0, 0.1233
+  278, White, 2, 1, 0.1607
+  279, White, 2, 1, 0.1655
+  280, White, 2, 1, 0.1422
+  281, White, 1, 0, 0.1814
+  282, White, 2, 1, 0.1477
+  283, White, 2, 1, 0.1602
+  284, White, 2, 1, 0.1794
+  285, White, 2, 1, 0.1601
+  286, White, 2, 1, 0.1614
+  287, White, 2, 1, 0.1616
+  288, White, 2, 1, 0.1251
+  289, White, 2, 1, 0.1601
+  290, White, 2, 1, 0.1824
+  291, White, 2, 1, 0.1513
+  292, White, 1, 0, 0.0775
+  293, White, 2, 1, 0.1459
+  294, White, 2, 1, 0.1518
+  295, White, 2, 1, 0.1504
+  296, White, 2, 1, 0.1347
+  297, White, 2, 1, 0.1368
+  298, White, 2, 1, 0.1288
+  299, White, 2, 1, 0.1518
+  300, White, 2, 1, 0.1573
+  301, White, 2, 1, 0.1412
+  302, White, 2, 1, 0.1488
+  303, White, 2, 1, 0.1602
+  304, White, 2, 1, 0.1692
+  305, White, 2, 1, 0.1483
+  306, White, 2, 1, 0.1299
+  307, White, 1, 0, 0.0206
+  308, White, 1, 0, 0.0544
+  309, White, 2, 1, 0.1384
+  310, White, 2, 1, 0.1706
+  311, White, 1, 0, 0.0681
+  312, White, 2, 1, 0.1521
+  313, White, 2, 1, 0.1951
+  314, White, 2, 1, 0.1354
+  315, White, 1, 0, 0.0207
+  316, White, 2, 1, 0.1409
+  317, White, 2, 1, 0.1459
+  318, White, 2, 1, 0.1364
+  319, White, 1, 0, 0.1626
+  320, White, 2, 1, 0.1499
+  321, White, 4, 0, 0.1818
+  322, White, 1, 0, 0.1438
+  323, White, 2, 1, 0.1743
+  324, White, 2, 1, 0.1367
+  325, White, 2, 1, 0.1789
+  326, White, 2, 1, 0.1560
+  327, White, 2, 1, 0.1474
+  328, White, 2, 1, 0.1625
+  329, White, 2, 1, 0.1395
+  330, White, 2, 1, 0.1384
+  331, White, 2, 1, 0.1455
+  332, White, 2, 1, 0.1236
+  333, White, 2, 1, 0.2016
+  334, White, 2, 1, 0.1734
+  335, White, 2, 1, 0.1276
+  336, White, 2, 1, 0.1384
+  337, White, 2, 1, 0.1717
+  338, White, 2, 1, 0.1467
+  339, White, 2, 1, 0.1805
+  340, White, 2, 1, 0.1391
+  341, White, 2, 1, 0.1465
+  342, White, 2, 1, 0.1657
+  343, White, 2, 1, 0.1539
+  344, White, 2, 1, 0.1579
+  345, White, 1, 0, 0.1479
+  346, White, 2, 1, 0.1540
+  347, White, 2, 1, 0.2062
+  348, White, 1, 0, 0.1441
+  349, White, 1, 0, 0.1395
+  350, White, 2, 1, 0.1774
+  351, White, 1, 0, 0.1008
+  352, White, 2, 1, 0.1619
+  353, White, 2, 1, 0.1546
+  354, White, 2, 1, 0.1927
+  355, White, 2, 1, 0.1657
+  356, White, 2, 1, 0.1815
+  357, White, 2, 1, 0.1706
+  358, White, 2, 1, 0.1454
+  359, White, 2, 1, 0.1423
+  360, White, 2, 1, 0.1512
+  361, White, 2, 1, 0.1321
+  362, White, 1, 0, 0.1397
+  363, White, 2, 1, 0.1343
+  364, White, 1, 0, 0.1100
+  365, White, 2, 1, 0.1672
+  366, White, 2, 1, 0.1728
+  367, White, 2, 1, 0.1523
+  368, White, 2, 1, 0.1399
+  369, White, 1, 0, 0.0662
+  370, White, 1, 0, 0.0832
+  371, White, 2, 1, 0.1646
+  372, White, 1, 0, 0.0194
+  373, White, 2, 1, 0.1385
+  374, White, 2, 1, 0.1451
+  375, White, 1, 0, 0.0634
+  376, White, 2, 1, 0.1696
+  377, White, 1, 0, 0.1373
+  378, White, 2, 1, 0.1355
+  379, White, 2, 1, 0.1437
+  380, White, 2, 1, 0.1573
+  381, White, 2, 1, 0.1407
+  382, White, 2, 1, 0.1458
+  383, White, 2, 1, 0.1858
+  384, White, 2, 1, 0.1613
+  385, White, 1, 0, 0.1443
+  386, White, 1, 0, 0.1411
+  387, White, 2, 1, 0.1646
+  388, White, 2, 1, 0.1309
+  389, White, 2, 1, 0.1523
+  390, White, 2, 1, 0.1286
+  391, White, 2, 1, 0.1657
+  392, White, 2, 1, 0.1802
+  393, White, 2, 1, 0.1586
+  394, White, 2, 1, 0.1627
+  395, White, 2, 1, 0.1639
+  396, White, 2, 1, 0.1611
+  397, White, 2, 1, 0.1139
+  398, White, 2, 1, 0.1967
+  399, White, 1, 0, 0.1866
+  400, White, 2, 1, 0.1538
+
+==================================================================
+  PHASE: 9.  Minimax AB CNN vs Minimax AB
+  P1=4c  P2=4
+==================================================================
+  CNN loaded successfully.
+  [Calibration] 1 sample game
+  Average time per game : 31.462 s
+  Games planned         : 100  (min=100, max=400, budget=20 min)
+  Estimated total time  : 52.4 min  (3146 s)
+  Expected 95% CI width : ±9.8%
+
+  --- BLOCK A: P1 (4c) as Black (50 games) ---
+  [A] Game  10/50  P1 wins:  10  Elapsed: 303.8s
+  [A] Game  20/50  P1 wins:  20  Elapsed: 608.2s
+  [A] Game  30/50  P1 wins:  30  Elapsed: 901.5s
+  [A] Game  40/50  P1 wins:  40  Elapsed: 1201.7s
+  [A] Game  50/50  P1 wins:  50  Elapsed: 1513.3s
+
+  --- BLOCK B: P1 (4c) as White (50 games) ---
+  [B] Game  10/50  P1 wins (total):  60  Elapsed: 1880.3s
+  [B] Game  20/50  P1 wins (total):  70  Elapsed: 2271.7s
+  [B] Game  30/50  P1 wins (total):  80  Elapsed: 2669.5s
+  [B] Game  40/50  P1 wins (total):  90  Elapsed: 3035.1s
+  [B] Game  50/50  P1 wins (total): 100  Elapsed: 3422.4s
+
+  ────────────────────────────────────────────────────────────
+  RESULTS  (100 games total, 3422.4 s elapsed)
+  ────────────────────────────────────────────────────────────
+  P1 (4c) wins :  100  (100.0%)
+  P2 (4) wins :    0  (0.0%)
+  Draws          :    0  (0.0%)
+  95% Wilson CI  : [96.3%, 100.0%]
+  Verdict        : P1 SIGNIFICANTLY BETTER (p<0.05)
+  ────────────────────────────────────────────────────────────
+
+  INDIVIDUAL GAME LOG (game_id, p1_colour, winner_code, p1_won, duration_s)
+  1, Black, 1, 1, 31.5238
+  2, Black, 1, 1, 29.0926
+  3, Black, 1, 1, 31.8230
+  4, Black, 1, 1, 32.4513
+  5, Black, 1, 1, 29.3245
+  6, Black, 1, 1, 31.5215
+  7, Black, 1, 1, 28.7554
+  8, Black, 1, 1, 31.5358
+  9, Black, 1, 1, 28.8907
+  10, Black, 1, 1, 28.8664
+  11, Black, 1, 1, 31.3344
+  12, Black, 1, 1, 31.3355
+  13, Black, 1, 1, 29.1090
+  14, Black, 1, 1, 31.5312
+  15, Black, 1, 1, 28.8637
+  16, Black, 1, 1, 28.8413
+  17, Black, 1, 1, 28.9404
+  18, Black, 1, 1, 31.4194
+  19, Black, 1, 1, 31.5082
+  20, Black, 1, 1, 31.5315
+  21, Black, 1, 1, 31.3535
+  22, Black, 1, 1, 28.7537
+  23, Black, 1, 1, 28.7328
+  24, Black, 1, 1, 28.7908
+  25, Black, 1, 1, 28.8038
+  26, Black, 1, 1, 28.8616
+  27, Black, 1, 1, 31.5057
+  28, Black, 1, 1, 28.8435
+  29, Black, 1, 1, 28.7722
+  30, Black, 1, 1, 28.8860
+  31, Black, 1, 1, 28.9815
+  32, Black, 1, 1, 28.8714
+  33, Black, 1, 1, 29.8623
+  34, Black, 1, 1, 28.9668
+  35, Black, 1, 1, 31.6252
+  36, Black, 1, 1, 30.7699
+  37, Black, 1, 1, 30.2938
+  38, Black, 1, 1, 32.2087
+  39, Black, 1, 1, 29.1837
+  40, Black, 1, 1, 29.4382
+  41, Black, 1, 1, 32.0887
+  42, Black, 1, 1, 31.7383
+  43, Black, 1, 1, 33.5188
+  44, Black, 1, 1, 29.5933
+  45, Black, 1, 1, 32.6638
+  46, Black, 1, 1, 32.4274
+  47, Black, 1, 1, 32.0539
+  48, Black, 1, 1, 29.1111
+  49, Black, 1, 1, 29.2873
+  50, Black, 1, 1, 29.1019
+  51, White, 2, 1, 34.1501
+  52, White, 2, 1, 32.3383
+  53, White, 2, 1, 39.7016
+  54, White, 2, 1, 39.5730
+  55, White, 2, 1, 35.2757
+  56, White, 2, 1, 35.2394
+  57, White, 2, 1, 35.2971
+  58, White, 2, 1, 35.3371
+  59, White, 2, 1, 39.1753
+  60, White, 2, 1, 40.8994
+  61, White, 2, 1, 38.6236
+  62, White, 2, 1, 35.9892
+  63, White, 2, 1, 39.6983
+  64, White, 2, 1, 35.6466
+  65, White, 2, 1, 40.3022
+  66, White, 2, 1, 40.6659
+  67, White, 2, 1, 39.9837
+  68, White, 2, 1, 40.5860
+  69, White, 2, 1, 40.1241
+  70, White, 2, 1, 39.8215
+  71, White, 2, 1, 40.4865
+  72, White, 2, 1, 41.0348
+  73, White, 2, 1, 38.5255
+  74, White, 2, 1, 40.8866
+  75, White, 2, 1, 35.2533
+  76, White, 2, 1, 39.3177
+  77, White, 2, 1, 35.3010
+  78, White, 2, 1, 39.8186
+  79, White, 2, 1, 46.6906
+  80, White, 2, 1, 40.4934
+  81, White, 2, 1, 38.8989
+  82, White, 2, 1, 33.6979
+  83, White, 2, 1, 38.8078
+  84, White, 2, 1, 35.3500
+  85, White, 2, 1, 35.1066
+  86, White, 2, 1, 38.9811
+  87, White, 2, 1, 38.8347
+  88, White, 2, 1, 32.0546
+  89, White, 2, 1, 38.7554
+  90, White, 2, 1, 35.0751
+  91, White, 2, 1, 38.1399
+  92, White, 2, 1, 35.0889
+  93, White, 2, 1, 33.5778
+  94, White, 2, 1, 39.5943
+  95, White, 2, 1, 32.0230
+  96, White, 2, 1, 46.3504
+  97, White, 2, 1, 39.7266
+  98, White, 2, 1, 44.4714
+  99, White, 2, 1, 37.7497
+  100, White, 2, 1, 40.6332
+
+==================================================================
+  PHASE: 10. MCTS CNN vs MCTS
+  P1=5c  P2=5
+==================================================================
+  CNN loaded successfully.
+  [Calibration] 1 sample game
+  Average time per game : 48.030 s
+  Games planned         : 100  (min=100, max=400, budget=20 min)
+  Estimated total time  : 80.1 min  (4803 s)
+  Expected 95% CI width : ±9.8%
+
+  --- BLOCK A: P1 (5c) as Black (50 games) ---
+  [A] Game  10/50  P1 wins:   7  Elapsed: 548.3s
+  [A] Game  20/50  P1 wins:  17  Elapsed: 1142.6s
+  [A] Game  30/50  P1 wins:  26  Elapsed: 1685.9s
+  [A] Game  40/50  P1 wins:  34  Elapsed: 2198.2s
+  [A] Game  50/50  P1 wins:  43  Elapsed: 2746.5s
+
+  --- BLOCK B: P1 (5c) as White (50 games) ---
+  [B] Game  10/50  P1 wins (total):  53  Elapsed: 3345.9s
+  [B] Game  20/50  P1 wins (total):  63  Elapsed: 3942.2s
+  [B] Game  30/50  P1 wins (total):  72  Elapsed: 4490.5s
+  [B] Game  40/50  P1 wins (total):  81  Elapsed: 5088.8s
+  [B] Game  50/50  P1 wins (total):  90  Elapsed: 5639.1s
+
+  ────────────────────────────────────────────────────────────
+  RESULTS  (100 games total, 5639.1 s elapsed)
+  ────────────────────────────────────────────────────────────
+  P1 (5c) wins :   90  (90.0%)
+  P2 (5) wins :   10  (10.0%)
+  Draws          :    0  (0.0%)
+  95% Wilson CI  : [82.6%, 94.5%]
+  Verdict        : P1 SIGNIFICANTLY BETTER (p<0.05)
+  ────────────────────────────────────────────────────────────
+
+  INDIVIDUAL GAME LOG (game_id, p1_colour, winner_code, p1_won, duration_s)
+  1, Black, 2, 0, 60.0317
+  2, Black, 1, 1, 60.0335
+  3, Black, 1, 1, 60.0352
+  4, Black, 1, 1, 58.0264
+  5, Black, 2, 0, 14.0138
+  6, Black, 2, 0, 60.0339
+  7, Black, 1, 1, 56.0310
+  8, Black, 1, 1, 60.0315
+  9, Black, 1, 1, 60.0331
+  10, Black, 1, 1, 60.0339
+  11, Black, 1, 1, 60.0333
+  12, Black, 1, 1, 58.0315
+  13, Black, 1, 1, 60.0319
+  14, Black, 1, 1, 60.0340
+  15, Black, 1, 1, 60.0346
+  16, Black, 1, 1, 56.0334
+  17, Black, 1, 1, 60.0352
+  18, Black, 1, 1, 60.0308
+  19, Black, 1, 1, 60.0315
+  20, Black, 1, 1, 60.0328
+  21, Black, 1, 1, 59.0306
+  22, Black, 1, 1, 60.0318
+  23, Black, 1, 1, 51.0340
+  24, Black, 1, 1, 60.0330
+  25, Black, 1, 1, 60.0319
+  26, Black, 1, 1, 60.0272
+  27, Black, 1, 1, 59.0309
+  28, Black, 1, 1, 60.0328
+  29, Black, 1, 1, 60.0327
+  30, Black, 2, 0, 14.0134
+  31, Black, 1, 1, 60.0326
+  32, Black, 1, 1, 60.0315
+  33, Black, 1, 1, 60.0321
+  34, Black, 1, 1, 60.0340
+  35, Black, 1, 1, 60.0302
+  36, Black, 1, 1, 60.0362
+  37, Black, 1, 1, 60.0309
+  38, Black, 2, 0, 10.0119
+  39, Black, 2, 0, 22.0208
+  40, Black, 1, 1, 60.0380
+  41, Black, 1, 1, 58.0304
+  42, Black, 1, 1, 60.0347
+  43, Black, 1, 1, 60.0354
+  44, Black, 1, 1, 55.0312
+  45, Black, 1, 1, 60.0316
+  46, Black, 1, 1, 59.0367
+  47, Black, 1, 1, 60.0308
+  48, Black, 1, 1, 60.0309
+  49, Black, 1, 1, 60.0334
+  50, Black, 2, 0, 16.0121
+  51, White, 2, 1, 60.0319
+  52, White, 2, 1, 60.0318
+  53, White, 2, 1, 60.0312
+  54, White, 2, 1, 60.0327
+  55, White, 2, 1, 60.0325
+  56, White, 2, 1, 60.0362
+  57, White, 2, 1, 59.0357
+  58, White, 2, 1, 60.0332
+  59, White, 2, 1, 60.0349
+  60, White, 2, 1, 60.0334
+  61, White, 2, 1, 60.0305
+  62, White, 2, 1, 60.0344
+  63, White, 2, 1, 60.0356
+  64, White, 2, 1, 60.0333
+  65, White, 2, 1, 60.0314
+  66, White, 2, 1, 60.0277
+  67, White, 2, 1, 60.0343
+  68, White, 2, 1, 57.0316
+  69, White, 2, 1, 59.0338
+  70, White, 2, 1, 60.0299
+  71, White, 2, 1, 60.0322
+  72, White, 2, 1, 58.0375
+  73, White, 2, 1, 60.0352
+  74, White, 2, 1, 59.0313
+  75, White, 2, 1, 59.0366
+  76, White, 2, 1, 60.0354
+  77, White, 1, 0, 13.0108
+  78, White, 2, 1, 60.0367
+  79, White, 2, 1, 60.0301
+  80, White, 2, 1, 59.0318
+  81, White, 2, 1, 60.0323
+  82, White, 2, 1, 60.0361
+  83, White, 2, 1, 60.0349
+  84, White, 2, 1, 60.0320
+  85, White, 2, 1, 60.0311
+  86, White, 2, 1, 60.0324
+  87, White, 1, 0, 60.0331
+  88, White, 2, 1, 58.0333
+  89, White, 2, 1, 60.0325
+  90, White, 2, 1, 60.0318
+  91, White, 2, 1, 60.0343
+  92, White, 2, 1, 60.0331
+  93, White, 2, 1, 60.0300
+  94, White, 2, 1, 60.0359
+  95, White, 2, 1, 51.0281
+  96, White, 1, 0, 19.0177
+  97, White, 2, 1, 60.0317
+  98, White, 2, 1, 60.0336
+  99, White, 2, 1, 60.0288
+  100, White, 2, 1, 60.0305
+
+==================================================================
+  PHASE: 11. Descent CNN vs Descent
+  P1=6c  P2=6
+==================================================================
+  CNN loaded successfully.
+  [Calibration] 1 sample game
+  Average time per game : 61.516 s
+  Games planned         : 100  (min=100, max=400, budget=20 min)
+  Estimated total time  : 102.5 min  (6152 s)
+  Expected 95% CI width : ±9.8%
+
+  --- BLOCK A: P1 (6c) as Black (50 games) ---
+  [A] Game  10/50  P1 wins:  10  Elapsed: 616.4s
+  [A] Game  20/50  P1 wins:  20  Elapsed: 1233.0s
+  [A] Game  30/50  P1 wins:  30  Elapsed: 1848.5s
+  [A] Game  40/50  P1 wins:  40  Elapsed: 2464.7s
+  [A] Game  50/50  P1 wins:  50  Elapsed: 3080.6s
+
+  --- BLOCK B: P1 (6c) as White (50 games) ---
+  [B] Game  10/50  P1 wins (total):  60  Elapsed: 3698.7s
+  [B] Game  20/50  P1 wins (total):  69  Elapsed: 4316.3s
+  [B] Game  30/50  P1 wins (total):  79  Elapsed: 4934.7s
+  [B] Game  40/50  P1 wins (total):  89  Elapsed: 5552.4s
+  [B] Game  50/50  P1 wins (total):  98  Elapsed: 6169.5s
+
+  ────────────────────────────────────────────────────────────
+  RESULTS  (100 games total, 6169.5 s elapsed)
+  ────────────────────────────────────────────────────────────
+  P1 (6c) wins :   98  (98.0%)
+  P2 (6) wins :    2  (2.0%)
+  Draws          :    0  (0.0%)
+  95% Wilson CI  : [93.0%, 99.4%]
+  Verdict        : P1 SIGNIFICANTLY BETTER (p<0.05)
+  ────────────────────────────────────────────────────────────
+
+  INDIVIDUAL GAME LOG (game_id, p1_colour, winner_code, p1_won, duration_s)
+  1, Black, 1, 1, 61.5741
+  2, Black, 1, 1, 61.7465
+  3, Black, 1, 1, 61.7188
+  4, Black, 1, 1, 61.5103
+  5, Black, 1, 1, 61.6184
+  6, Black, 1, 1, 61.6228
+  7, Black, 1, 1, 61.6787
+  8, Black, 1, 1, 61.6395
+  9, Black, 1, 1, 61.6354
+  10, Black, 1, 1, 61.6706
+  11, Black, 1, 1, 61.7197
+  12, Black, 1, 1, 61.6840
+  13, Black, 1, 1, 61.5664
+  14, Black, 1, 1, 61.6190
+  15, Black, 1, 1, 61.7813
+  16, Black, 1, 1, 61.6238
+  17, Black, 1, 1, 61.6150
+  18, Black, 1, 1, 61.5883
+  19, Black, 1, 1, 61.7684
+  20, Black, 1, 1, 61.6059
+  21, Black, 1, 1, 61.5409
+  22, Black, 1, 1, 61.6693
+  23, Black, 1, 1, 61.7586
+  24, Black, 1, 1, 61.6097
+  25, Black, 1, 1, 61.7745
+  26, Black, 1, 1, 61.5661
+  27, Black, 1, 1, 61.5418
+  28, Black, 1, 1, 61.6121
+  29, Black, 1, 1, 61.6400
+  30, Black, 1, 1, 60.7893
+  31, Black, 1, 1, 61.5209
+  32, Black, 1, 1, 61.6466
+  33, Black, 1, 1, 61.7088
+  34, Black, 1, 1, 61.4744
+  35, Black, 1, 1, 61.4682
+  36, Black, 1, 1, 61.6207
+  37, Black, 1, 1, 61.6642
+  38, Black, 1, 1, 61.6685
+  39, Black, 1, 1, 61.6183
+  40, Black, 1, 1, 61.8091
+  41, Black, 1, 1, 61.5413
+  42, Black, 1, 1, 61.6074
+  43, Black, 1, 1, 61.6295
+  44, Black, 1, 1, 61.5745
+  45, Black, 1, 1, 61.5733
+  46, Black, 1, 1, 61.5804
+  47, Black, 1, 1, 61.5500
+  48, Black, 1, 1, 61.6842
+  49, Black, 1, 1, 61.5828
+  50, Black, 1, 1, 61.5686
+  51, White, 2, 1, 61.7591
+  52, White, 2, 1, 61.7598
+  53, White, 2, 1, 61.7301
+  54, White, 2, 1, 61.9120
+  55, White, 2, 1, 61.8264
+  56, White, 2, 1, 61.7779
+  57, White, 2, 1, 61.4507
+  58, White, 2, 1, 61.7014
+  59, White, 2, 1, 62.0531
+  60, White, 2, 1, 62.1244
+  61, White, 2, 1, 61.7625
+  62, White, 2, 1, 61.8047
+  63, White, 2, 1, 61.9699
+  64, White, 2, 1, 61.8988
+  65, White, 2, 1, 61.9853
+  66, White, 2, 1, 61.8127
+  67, White, 2, 1, 61.7093
+  68, White, 2, 1, 61.6251
+  69, White, 1, 0, 60.9367
+  70, White, 2, 1, 62.1130
+  71, White, 2, 1, 61.7457
+  72, White, 2, 1, 61.5283
+  73, White, 2, 1, 61.9604
+  74, White, 2, 1, 61.6915
+  75, White, 2, 1, 62.1901
+  76, White, 2, 1, 61.9673
+  77, White, 2, 1, 62.1683
+  78, White, 2, 1, 61.7150
+  79, White, 2, 1, 61.5604
+  80, White, 2, 1, 61.8346
+  81, White, 2, 1, 61.9971
+  82, White, 2, 1, 61.9808
+  83, White, 2, 1, 61.6381
+  84, White, 2, 1, 61.9717
+  85, White, 2, 1, 61.5517
+  86, White, 2, 1, 61.5513
+  87, White, 2, 1, 61.7746
+  88, White, 2, 1, 61.6789
+  89, White, 2, 1, 61.8219
+  90, White, 2, 1, 61.7605
+  91, White, 2, 1, 61.5687
+  92, White, 2, 1, 61.7218
+  93, White, 2, 1, 62.0743
+  94, White, 2, 1, 61.7587
+  95, White, 2, 1, 62.0971
+  96, White, 2, 1, 61.7943
+  97, White, 2, 1, 61.7074
+  98, White, 1, 0, 60.7851
+  99, White, 2, 1, 61.8551
+  100, White, 2, 1, 61.7254
+
+##################################################################
+  COMPLETE TEST SUITE — FINAL SUMMARY
+##################################################################
+
+  Total suite time: 257.2 min (15430 s)
+
+
+==================================================================
+SUMMARY TABLE
+==================================================================
+Phase                                    N   P1W%   P2W%     D%        95% CI         Time(s)
+------------------------------------------------------------------
+8.  Heuristic CNN vs Heuristic         400   82.0   16.8    1.2    [77.9%, 85.5%]        57.6
+9.  Minimax AB CNN vs Minimax AB       100  100.0    0.0    0.0   [96.3%, 100.0%]      3422.4
+10. MCTS CNN vs MCTS                   100   90.0   10.0    0.0    [82.6%, 94.5%]      5639.1
+11. Descent CNN vs Descent             100   98.0    2.0    0.0    [93.0%, 99.4%]      6169.5
+==================================================================
+
+VERDICTS
+  8.  Heuristic CNN vs Heuristic        P1 SIGNIFICANTLY BETTER (p<0.05)
+  9.  Minimax AB CNN vs Minimax AB      P1 SIGNIFICANTLY BETTER (p<0.05)
+  10. MCTS CNN vs MCTS                  P1 SIGNIFICANTLY BETTER (p<0.05)
+  11. Descent CNN vs Descent            P1 SIGNIFICANTLY BETTER (p<0.05)
