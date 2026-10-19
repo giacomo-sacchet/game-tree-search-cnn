@@ -2,7 +2,7 @@
 
 Code, trained models and benchmark results for my MSc thesis in Management Engineering (Università di Bologna, October 2026):
 
-> **Beyond Minimax: Advanced Tree Search Algorithms and Machine Learning for Sequential Decision-Making — From Games to Supply Chain Applications**
+> **Beyond Minimax: Advanced Tree Search Algorithms and Machine Learning for Sequential Decision-Making — From Games to Supply Chain Optimization**
 > Giacomo Sacchet · Supervisor: Prof. Andrea Borghesi (Università di Bologna) · Co-supervisor: Prof. Lilian Buzer (ESIEE Paris)
 
 The thesis builds a search-and-evaluate methodology on three board games of increasing complexity (Tic-Tac-Toe, Connect 4, Othello), then asks which parts of it transfer to a supply-chain problem, the Beer Game, formalized as a Markov Decision Process.
@@ -111,7 +111,7 @@ The benchmark was run in two sessions with the same harness and settings:
 
 ## Thesis
 
-The full thesis is available in [`docs/`](docs/).
+The full thesis is available in [`docs/Sacchet_MSc_Thesis.pdf`](docs/Sacchet_MSc_Thesis.pdf).
 
 ## References
 
